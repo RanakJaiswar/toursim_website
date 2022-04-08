@@ -2,7 +2,7 @@
 <!-- Navigation-->
  <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-shrink" id="mainNav">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#page-top"><span class="text-waring">Tourism</span></a>
+                <a class="navbar-brand" href="#page-top"><span class="text-waring">NaviGator</span></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ms-1"></i>
@@ -11,7 +11,8 @@
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link" href="<?php echo $page !='home' ? './':''  ?>">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="./?page=packages">Packages</a></li>
-                        <li class="nav-item"><a class="nav-link" href="<?php echo $page !='home' ? './':''  ?>#about">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./?page=about_us">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./?page=rev_rat">Reviews</a></li>
                         <li class="nav-item"><a class="nav-link" href="./?page=feedback">Feedback</a></li>
                         <?php if(isset($_SESSION['userdata'])): ?>
                           <li class="nav-item"><a class="nav-link" href="./?page=my_account"><i class="fa fa-user"></i> Hi, <?php  echo $_settings->userdata('firstname') ?>!</a></li>

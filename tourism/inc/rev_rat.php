@@ -11301,5 +11301,5 @@ section#contact form#contactForm :-ms-input-placeholder {
 </style>
 
 <section class="page-section">
-<?php echo file_get_contents(base_app.'about_us.html') ?>
+<?php echo file_get_contents(base_app.'rev_rat.html') ?>
 </section>
